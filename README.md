@@ -1,5 +1,5 @@
 # SPWithFliprOnDz
-Swimming poll full control using Flipr device for analysing the SP water
+Swimming pool full control using Flipr device for analysing the SP water
 
 install :
 
