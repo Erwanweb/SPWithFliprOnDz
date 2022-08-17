@@ -251,9 +251,9 @@ class BasePlugin:
         Domoticz.Debug("Filtration calcul. dur. is : " + str(self.PumpTemp))
         # /json.htm?type=command&param=getSunRiseSet --> SunAtSouth
         jsonData = DomoticzAPI("ttype=command&param=getSunRiseSet")
-        if jsonData =:
+        if jsonData :
             self.SunAtSouth = jsonData['SunAtSouth']
-        Domoticz.Debug("Sun at south at  : " + str(SunAtSouth))
+            Domoticz.Debug("Sun at south at  : " + str(SunAtSouth))
 
         # self.nextcalc = now + timedelta(minutes=self.calculate_period)
         # self.startpump = datetime.now()
